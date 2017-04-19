@@ -1,0 +1,61 @@
+body, html {height: 100%;
+            margin: 0px;
+}
+
+.nav li {margin-right: 20px;
+        }
+
+.nav ul {margin: 0px;
+         padding-top: 0px;
+         text-align: center;
+        }
+         
+.nav li, a {display: inline-block;  /*for menu bar*/
+            color: white;
+            text-decoration: none;
+            /*font-family: 'Indie Flower', cursive;*/
+            font-family: 'Roboto', sans-serif;
+           }
+
+.nav {background-color: #1D2731;
+      height: 48px;
+      top: 55%;
+      left: 0%;
+      margin-top: 82px;
+      margin-bottom: 100%;
+      padding: 0px;
+      bottom: 0px;
+      font-size: 2.5em;
+      position: absolute;
+      width: 100%;
+      opacity:0.9;
+      /*opacity: 0.5;
+      filter: alpha(opacity=50);*/
+     }
+    
+.nav ul {margin: 0;
+         padding: 0;
+        }
+
+.nav ul li {list-style-type: none;
+            display: inline;
+           }
+
+.nav li:not(:first-child):before {content: " | ";
+                                 }
+
+a:hover { color: #D9B310;
+    
+        }
+
+ .background {
+    /* The image used */
+    background-image: url("homepage copy.jpg");
+    background-size: contain;
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%}

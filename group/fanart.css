@@ -1,0 +1,85 @@
+body, html {height: 100%;
+            margin: 0px;
+}
+
+
+.nav li {margin-right: 45px;
+        }
+
+.nav ul {margin: px;
+         padding-top: 12px;
+         text-align: center;
+        }
+         
+.nav li, a {display: inline-block;  /*for menu bar*/
+            color: white;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            
+           }
+
+.nav {background-color: #0B3C5D;
+      height: 48px;
+      top: 0px;
+      bottom: 0px;
+      font-size: 1.5em;
+      position: fixed;
+      width:100%;
+      opacity:0.9;
+
+      /*opacity: 0.5;
+      filter: alpha(opacity=50);*/
+     }
+     
+.nav ul {margin: 0;
+         padding-left: 0;
+        }
+
+.nav ul li {list-style-type: none;
+            display: inline;
+           }
+
+.nav li:not(:first-child):before {content: " | ";
+                                 }
+.nav {content: "|"
+     }
+
+a:hover { color: #D9B310;
+    
+        }
+.fanartheader {padding-top: 30px;
+               padding-left: 25%;
+               color: #D9B310;
+              }
+
+.fanartslide {padding-left: 25%;
+              
+
+              
+             }
+#form {padding-left: 22%;
+         color:#D9B310;
+}
+
+.artheader {padding-left: 40%;
+            color: #D9B310;
+           }
+
+
+.footer { display: block;
+          background-color: #0B3C5D;
+          height: 48px;
+         font-family: 'Roboto', sans-serif;
+         font-size: larger;
+         color:#D9B310;
+         padding-top: 15px;
+        }
+
+.copy   {font-size: xx-small;
+         vertical-align: 4px;
+         color: #D9B310;
+        }
+.social { padding-left: 41.5%;
+          padding-top: 100px;
+         }
+         

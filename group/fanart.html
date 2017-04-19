@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Fandestiny | Fan Art</title>
+
+        <link rel="stylesheet" href="fanart.css" type="text/css" />
+        <!--<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+<style>
+    	body {background-color: #328CC1; color: #1D2731;}
+    		
+    	     
+    	label { float:left;
+    	        width:150px;
+    	        text-align:right;
+    	        padding-right: 12px;
+    	        margin-top:12px;
+    	        clear:left;}
+    	input, textarea {margin-top: 12px;}
+    	
+    	#sumbit { text-align: center;
+    			  padding: 15px;
+    			  margin-left: 10px;
+    			}
+        #hr {width: 80%;
+        	 color: #D9B310;
+            }
+        
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+            }
+
+        .fa:hover {
+                    opacity: 0.7;
+                  }
+
+        .fa-facebook {
+                    color:# white;
+                    background: #3B5998;
+                     }
+
+        .fa-twitter {
+                    color: white;
+                    background:#55ACEE; 
+                    }
+
+        .fa-instagram {
+                    background: #125688;
+                    color: white;
+                      }
+
+        .fa-pinterest {
+                    background: #cb2027;
+                    color: white;
+                      }  
+
+    </style>
+</head>
+<body background="bg-1-full.jpg">
+
+<div class="nav">
+<ul>
+        <li> <a href="homepage.html">Home</a></li>
+        <li> <a href="fanart.html">Fan Art</a></li>
+        <li> <a href="about.html">Contact Us</a></li>
+
+</ul>
+</div>
+
+	<h1 class="fanartheader">Fan Art Slideshow</h1>
+<span class="bgcolor">
+<div class="fanartslide">
+  <img class="mySlides" src="attackonTimg/at6.png" style="width:75%">
+  <img class="mySlides" src="attackonTimg/at7.png" style="width:75%">
+  <img class="mySlides" src="thelastman/lm5.png" style="width:75%">
+  <img class="mySlides" src="thelastman/lm6.png" style="width:75%">
+  <img class="mySlides" src="v4vimg/v3.png" style="width:75%">
+  <img class="mySlides" src="v4vimg/v5.png" style="width:75%">
+  
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</span>
+
+
+	<!---https://www.w3schools.com/w3css/w3css_slideshow.asp---> <!--- How to create slideshow -->
+
+<hr id="hr">	
+<div class="artheader"></div>
+<h1 class="artheader">Artwork Submission</h1>
+
+<form id="form">
+	<div>
+	<label for="myname">Name:</label> 
+	<input type="text" name="First Name">
+	
+	</div>
+	
+<div>
+	<label for="email">Email:</label>
+	<input type="email" name="Email">
+</div>	
+<div>
+	<label for="Description">Descripton:</label>
+	<textarea name="Description" id="Description"rows="5" cols="50"></textarea>
+	
+</div>
+
+
+<div id="term">
+<label for="terms">I agree to the terms</label>
+<input type="radio" name="I agree to the terms and conditions">
+</div>
+
+<div id="sumbit">
+	<input type="submit" value="Submit"/>
+</div>
+	
+	
+</form>
+
+<div class="social">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+</div>
+
+</hr>
+
+
+<div class="footer">
+    <footer> <center><span class="copy">&#9400;</span> Created by us, Just for you </center></footer> 
+    
+</div>
+
+
+</body>
+</html>

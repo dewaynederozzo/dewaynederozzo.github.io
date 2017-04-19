@@ -1,0 +1,109 @@
+body, html {margin: 0px;
+            height: 100%;
+           }
+
+
+.nav li {margin-right: 45px;
+        }
+
+.nav ul {margin: px;
+         padding-top: 12px;
+         text-align: center;
+        }
+         
+.nav li, a {display: inline-block;  /*for menu bar*/
+            color: white;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            
+           }
+
+.nav {background-color: #0B3C5D;
+      height: 48px;
+      top: 0px;
+      bottom: 0px;
+      font-size: 1.5em;
+      position: absolute;
+      width:100%;
+      opacity:0.9;
+
+      /*opacity: 0.5;
+      filter: alpha(opacity=50);*/
+     }
+     
+.nav ul {margin: 0;
+         padding-left: 0;
+        }
+
+.nav ul li {list-style-type: none;
+            display: inline;
+           }
+
+.nav li:not(:first-child):before {content: " | ";
+                                 }
+.nav {content: "|"
+     }
+
+a:hover { color: #D9B310;
+    
+        }
+
+.contact {padding-left: 40%;
+            color: #1D2731;
+           }
+
+.logo {position: 100%;
+       width: 300px;
+       height: 540px;
+       padding-left: 342px;
+      }
+
+
+img {width:200px;
+     height: 350px;
+     position: 100%;
+     padding-left: 460px;
+     padding-top: 20%;
+    }
+
+#form {padding-left: 22%;
+       font-size: medium;
+       color: #D9B310;                  
+}
+
+.footer { display: block;
+          background-color: #0B3C5D;
+          height: 48px;
+         font-family: 'Roboto', sans-serif;
+         font-size: small;
+         color:#D9B310;
+         padding-top: 15px;
+        }
+
+.copy   {font-size: xx-small;
+         vertical-align: 4px;
+         color: #D9B310;
+        }
+
+.social { padding-left: 41.5%;
+          padding-top: 100px;}
+
+.para {font-family: font-family: 'Roboto', sans-serif;
+       font-size: large;
+       padding-left: 325px;
+       padding-bottom: 30px;
+       padding-right: 250px;
+       }
+p {background-color: #D9B310;
+   border:solid;
+   border-color: #D9B310;
+   box-shadow: 10px 10px 5px #1D2731}
+
+.contact {color: #D9B310;}
+
+
+
+
+
+
+
