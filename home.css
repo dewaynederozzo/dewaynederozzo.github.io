@@ -1,0 +1,81 @@
+body { margin: 0px;
+	   padding: 0px;
+	   font-family: 'Lora', serif;
+	 }
+	  
+#sidebar{    background: #FF3B3F;
+			 width:200px;
+			 height: 100%;
+			 display: block;
+			 position: absolute;
+			 left: -200px;
+			 top: 0px;
+			 transition: left 0.3s linear;
+	        } 
+
+#sidebar.visible {
+					left: 0px;
+					transition: left 0.3s linear;		
+
+				 }
+#sidebarbutton { display: inline-block;
+				 vertical-align: middle;
+				 width: 20px;
+				 height: 15px;
+				 cursor: pointer;
+				 margin: 20px;
+				 position: absolute;
+				 top: 0px;
+				 right: -60px;
+			   }
+
+#sidebarbutton span{ height: 1px;
+					 background:#FF3B3F;
+					 margin-bottom: 5px;
+					 display: block;
+					}
+
+#sidebarbutton span:nth-child(2) { width: 75%;
+								 }
+
+#sidebarbutton span:nth-child(3) { width: 50%;
+								 }
+
+
+ul { margin: 0px;
+	 padding: 0px;
+   }
+
+ul li { list-style: none;
+
+
+	  }
+
+ul li a {
+	background-color: #A9A9A9;
+	color: #EFEFEF;
+	border-bottom: 1px solid #111; 
+	display: block;
+	width: 180px;
+	padding:10px; 
+	text-decoration: none;
+}
+
+.bgimg {background-image: url("nohome.jpg");
+		height: 100%; 
+        background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+		position: relative;
+}
+    	
+    	
+.container {
+	height: 1000px;
+	background-image: url("nohome.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+	clear:both;
+	/*top: 500px;*/
+}

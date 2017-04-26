@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="contributions.css" type="text/css" />
+<style>
+
+
+a:hover { color:#FF3B3F}
+
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #FF3B3F;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+       
+    }
+}
+.footer {clear:left;
+         position: relative;
+}
+
+</style>
+</head>
+<body>
+    
+      <body background="webback.jpg";></div>
+      <div id="sidebar">
+          	<ul>
+				<li><a href="index.html">Menu</a></li>
+				<li><a href="learn.html">Visit</a></li>
+				<li><a href="art.html">Artwork</a></li>
+				<li><a href="contributions.html">Contributions</a></li>
+			</ul>
+		
+		<div id="sidebarbutton" class="sidebarbutton"></script>
+				<span></span>
+				<span></span>
+				<span></span>
+		</div>
+		</div>
+
+<h2 style="text-align:center">Contributions And Memberships</h2></h2>
+<p style="text-align:center">Join and Save </p>
+ <div class="container">
+<div class="columns">
+  <ul class="price">
+    <li class="header">Basic</li>
+    <li class="grey">$ 49.99 / year</li>
+    <li>10 Unlimited Day Passes</li>
+    <li>5 Lunch Vouchers</li>
+    <li>2 $10 of less gifts</li>
+    <li>1 free poster</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#FF3B3F">Pro</li>
+    <li class="grey">$ 74.99 / year</li>
+    <li>15 Unlimited Day Passes</li>
+    <li>7 Lunch Vouchers</li>
+    <li>2 $10 of less gifts</li>
+    <li>2 free posters</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Premium</li>
+    <li class="grey">$ 109.99 / year</li>
+    <li>20 Unlimited Day Passes</li>
+    <li>10 Lunch Vouchers</li>
+    <li>5 $10 of less gifts</li>
+    <li>5 free posters</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+</div>
+
+<div class="bgfooter">
+    
+<div class="footer">
+    <span class="wfooter">
+    <footer><span class="copy">&#9400;</span> Where the Wild Life Roams</footer>
+    </span>
+</div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+
+	$(document).ready(function(){
+		$('#sidebarbutton').click(function(){
+			$('#sidebar').toggleClass('visible');
+		});
+	});
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body, html { margin: 0px;
+			 height: 100%;
+            font-family: 'Lora', serif;
+		   }
+
+
+.format{ margin: auto;
+         border:1px solid #FF3B3F;
+         padding-bottom: 30px;
+         width: 280px;
+         
+         
+         
+         
+          }
+
+.format:hover {border:1px solid #FF3B3F;
+              }   
+              
+.format img { width: 100%;
+              height: auto;
+            }
+.desc {padding: 10px;
+       text-align: center;}
+
+div.format {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+   
+}
+
+div.format:hover {
+    border: 1px solid #777;
+}
+
+div.format img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+         }
+
+.map { padding-left: 35%;
+       clear: both;
+       padding-top: 40px;
+       
+    
+     }
+     
+.container { width: 100%;
+             margin:auto;
+             padding-top: 30px; 
+             padding-bottom: 10px;
+             display: inline-block;
+           }
+           
+.header { padding-left: 35%;
+    
+        }
+
+
+.location { padding-bottom: 30px;
+            padding-left: 35%;
+            padding-top: 15px;
+          }
+
+.footer { display: block;
+          background-color: #FF3B3F;
+          height: 48px;
+         font-family: 'Roboto', sans-serif;
+         font-size: larger;
+         color:#EFEFEF;
+         padding-top: 25px;
+        }
+
+.copy   {font-size: xx-small;
+         vertical-align: 4px;
+         color: #A9A9A9;
+        }
+        
+#sidebar{    background: #FF3B3F;
+			 width:200px;
+			 height: 100%;
+			 display: block;
+			 position: absolute;
+			 left: -200px;
+			 top: 0px;
+			 transition: left 0.3s linear;
+	        } 
+
+#sidebar.visible {
+					left: 0px;
+					transition: left 0.3s linear;		
+
+				 }
+#sidebarbutton { display: inline-block;
+				 vertical-align: middle;
+				 width: 20px;
+				 height: 15px;
+				 cursor: pointer;
+				 margin: 20px;
+				 position: absolute;
+				 top: 0px;
+				 right: -60px;
+			   }
+
+#sidebarbutton span{ height: 1px;
+					 background:#FF3B3F;
+					 margin-bottom: 5px;
+					 display: block;
+					}
+
+#sidebarbutton span:nth-child(2) { width: 75%;
+								 }
+
+#sidebarbutton span:nth-child(3) { width: 50%;
+								 }
+
+
+ul { margin: 0px;
+	 padding: 0px;
+   }
+
+ul li { list-style: none;
+
+
+	  }
+
+ul li a {
+	background-color: #A9A9A9;
+	color: #EFEFEF;
+	border-bottom: 1px solid #111; 
+	display: block;
+	width: 180px;
+	padding:10px; 
+	text-decoration: none;
+}

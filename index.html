@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sidebar Menu </title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
+	
+	<style>
+		a:hover { color:#FF3B3F}
+	</style>
+</head>
+
+
+<body>
+<div class="container">
+		<div id="sidebar">
+
+			<ul>
+				<li><a href="index.html">Menu</a></li>
+				<li><a href="learn.html">Visit</a></li>
+				<li><a href="art.html">Artwork</a></li>
+				<li><a href="contributions.html">Contributions</a></li>
+			</ul>
+		
+			<div id="sidebarbutton" class="sidebarbutton"></script>
+					<span></span>
+					<span></span>
+					<span></span>
+			</div>
+		
+		</div>
+		</div>
+<div class="bgimg"></div>
+<div class="bgimg">
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+
+	$(document).ready(function(){
+		$('#sidebarbutton').click(function(){
+			$('#sidebar').toggleClass('visible');
+		});
+	});
+
+
+</script>
+
+
+
+
+</body>
+</html>
